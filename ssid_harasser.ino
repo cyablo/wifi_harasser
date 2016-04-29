@@ -1,4 +1,3 @@
-
 #include <ESP8266WiFi.h>
 #include <ctype.h>
 
@@ -78,12 +77,6 @@ void loop() {
      }
   } while (i++ != sizeof(ssid));
   
-  //packet[bit] = 'a'; bit++;
-  //packet[bit] = 'a'; bit++;
-  //packet[bit] = 'a'; bit++;
-  //packet[bit] = 'a'; bit++;
-  //packet[bit] = 'a'; bit++;
-  //packet[bit] = 'a'; bit++;
   // Supported Rates
   packet[bit] = 0x01; bit++;
   packet[bit] = 0x08; bit++;
